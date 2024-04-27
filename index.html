@@ -79,7 +79,7 @@
             </a>
             <a href="javascript:void(0);" class="dropdown-item">
               <img src="./assets/img/flags/es.png" alt="Espanha" height="16" title="Bandeira da Espanha" />
-              Spanish
+              Español
             </a>
           </div>
         </li>
@@ -115,11 +115,20 @@
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso Básico as Informações">Conteúdo Básico</span>
             </li>
-            <li>
-              <a href="change-password.html">
+            <li class="submenu">
+              <a href="#">
                 <i class="la la-key"></i>
-                <span>Alterar Senha</span>
+                <span>Autenticação</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="login.html">Sair</a>
+                </li>
+                <li>
+                  <a href="change-password.html">Alterar Senha</a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="chat.html">
@@ -151,84 +160,96 @@
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Gerenciar Clientes</span>
             </li>
-            <li>
-              <a href="create-client.html">
-                <i class="la la-user-plus"></i>
-                <span>Criar Cliente</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-user"></i>
+                <span>Gerir Clientes</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-client.html">Cadastrar</a>
+                </li>
+                <li>
+                  <a href="read-client.html">Tabela</a>
+                </li>
+                <li>
+                  <a href="search-client.html">Buscar</a>
+                </li>
+                <li>
+                  <a href="expor-client.html">Exportar Planilha</a>
+                </li>
+                <li>
+                  <a href="inactive-client.html">Cadastros Inativo</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="read-client.html">
-                <i class="la la-users"></i>
-                <span>Listar Clientes</span>
-              </a>
-            </li>
-            <li>
-              <a href="search-client.html">
-                <i class="la la-search"></i>
-                <span>Buscar Cliente</span>
-              </a>
-            </li>
-            <li>
-              <a href="export-client.html">
-                <i class="la la-user-cog"></i>
-                <span>Exportar Clientes</span>
-              </a>
-            </li>
-            <li>
-              <a href="create-group-client.html">
+            <li class="submenu">
+              <a href="#">
                 <i class="la la-user-friends"></i>
-                <span>Criar Grupo de Cliente</span>
+                <span>Gerir Grupos</span>
+                <span class="menu-arrow"></span>
               </a>
-            </li>
-            <li>
-              <a href="read-group-client.html">
-                <i class="la la-users"></i>
-                <span>Grupo de Clientes</span>
-              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-group-client.html">Cadastrar</a>
+                </li>
+                <li>
+                  <a href="read-group-client.html">Tabela</a>
+                </li>
+              </ul>
             </li>
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Hangares do Aeroporto">Gerenciar Hangares</span>
             </li>
             <li>
               <a href="create-hangar.html">
-                <i class="la la-stream"></i>
+                <i class="la la-cube"></i>
                 <span>Criar Hangar</span>
               </a>
             </li>
             <li>
               <a href="read-hangar.html">
-                <i class="la la-box"></i>
+                <i class="la la-cubes"></i>
                 <span>Listar Hangares</span>
               </a>
             </li>
-            <li>
-              <a href="create-service-hangar.html">
-                <i class="la la-box"></i>
-                <span>Ad. Serviço no Hangar</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-gears"></i>
+                <span>Serviço Hangar</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="delete-service-hangar.html">Remover Serviço</a>
+                </li>
+                <li>
+                  <a href="create-service-hangar.html">Adicionar Serviço</a>
+                </li>
+                <li>
+                  <a href="read-service-hangar.html">Listar Serviços</a>
+                </li>
+              </ul>
+            </li>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-unlock"></i>
+                <span>Acesso Hangar</span>
+                <span class="menu-arrow"></span>
+              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="lock-hangar.html">Bloquear</a>
+                </li>
+                <li>
+                  <a href="unlock-hangar.html">Desbloquear</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="delete-service-hangar.html">
-                <i class="la la-box"></i>
-                <span>Rm. Serviço do Hangar</span>
-              </a>
-            </li>
-            <li>
-              <a href="lock-hangar.html">
-                <i class="la la-box"></i>
-                <span>Bloquear Hangar</span>
-              </a>
-            </li>
-            <li>
-              <a href="unlock-hangar.html">
-                <i class="la la-box"></i>
-                <span>Desbloquear Hangar</span>
-              </a>
-            </li>
-            <li>
-              <a href="audit-hangar.html">
-                <i class="la la-box"></i>
+              <a href="read-audit-hangar.html">
+                <i class="la la-bell"></i>
                 <span>Auditória de Hangar</span>
               </a>
             </li>
@@ -237,205 +258,262 @@
             </li>
             <li>
               <a href="lock-access.html">
-                <i class="la la-box"></i>
+                <i class="la la-lock"></i>
                 <span>Bloquear Acesso</span>
               </a>
             </li>
             <li>
               <a href="unlock-access.html">
-                <i class="la la-box"></i>
+                <i class="la la-unlock"></i>
                 <span>Desbloquear Acesso</span>
               </a>
             </li>
             <li>
+              <a href="read-lock-access.html">
+                <i class="la la-ban"></i>
+                <span>Listar Bloqueios</span>
+              </a>
+            </li>
+            <li>
               <a href="change-password-employee.html">
-                <i class="la la-box"></i>
+                <i class="la la-key"></i>
                 <span>Alterar Senha</span>
               </a>
             </li>
             <li>
               <a href="create-employee.html">
-                <i class="la la-box"></i>
+                <i class="la la-user"></i>
                 <span>Criar Funcionários</span>
               </a>
             </li>
             <li>
               <a href="read-employees.html">
-                <i class="la la-box"></i>
+                <i class="la la-users"></i>
                 <span>Listar Funcionários</span>
               </a>
             </li>
             <li>
               <a href="disable-employee.html">
-                <i class="la la-box"></i>
+                <i class="la la-eye-slash"></i>
                 <span>Desativar Funcionário</span>
               </a>
             </li>
             <li>
               <a href="enable-employee.html">
-                <i class="la la-box"></i>
+                <i class="la la-eye"></i>
                 <span>Ativar Funcionário</span>
               </a>
             </li>
             <li>
               <a href="read-groups.html">
-                <i class="la la-box"></i>
+                <i class="la la-user-friends"></i>
                 <span>Listar Grupos</span>
               </a>
             </li>
             <li>
               <a href="read-permissions.html">
-                <i class="la la-box"></i>
+                <i class="la la-fingerprint"></i>
                 <span>Listar Permissões</span>
               </a>
             </li>
             <li>
               <a href="audit-employees.html">
-                <i class="la la-box"></i>
+                <i class="la la-bell"></i>
                 <span>Auditoria Funcionários</span>
               </a>
             </li>
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Gerenciar Voos</span>
             </li>
-            <li>
-              <a href="search-flight.html">
+            <li class="submenu">
+              <a href="#">
                 <i class="la la-search"></i>
-                <span>Localizar Voos</span>
+                <span>Localizar Dados</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="search-flight.html">Localizar Voos</a>
+                </li>
+                <li>
+                  <a href="search-landing.html">Localizar Pousos</a>
+                </li>
+                <li>
+                  <a href="search-takeoff.html">Localizar Decolagens</a>
+                </li>
+                <li>
+                  <a href="search-movement.html">Localizar Movimentação</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="search-movement.html">
-                <i class="la la-search"></i>
-                <span>Localizar Movimentação</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-file-pdf"></i>
+                <span>Exportar Dados</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="export-flight.html">Exportar Voos</a>
+                </li>
+                <li>
+                  <a href="export-landing.html">Exportar Pousos</a>
+                </li>
+                <li>
+                  <a href="export-takeoff.html">Exportar Decolagens</a>
+                </li>
+                <li>
+                  <a href="export-movement.html">Exportar Movimentação</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="create-landing.html">
-                <i class="la la-box"></i>
-                <span>Registrar Pouso</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-plane-arrival"></i>
+                <span>Pouso</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-landing.html">Registrar Pouso</a>
+                </li>
+                <li>
+                  <a href="read-landing.html">Listar Pousos</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="read-landing.html">
-                <i class="la la-box"></i>
-                <span>Listar Pousos</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-plane-departure"></i>
+                <span>Decolagem</span>
+                <span class="menu-arrow"></span>
               </a>
-            </li>
-            <li>
-              <a href="create-takeoff.html">
-                <i class="la la-box"></i>
-                <span>Registrar Decolagem</span>
-              </a>
-            </li>
-            <li>
-              <a href="read-takeoff.html">
-                <i class="la la-box"></i>
-                <span>Listar Decolagens</span>
-              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-takeoff.html">Registrar Decolagem</a>
+                </li>
+                <li>
+                  <a href="read-takeoff.html">Listar Decolagems</a>
+                </li>
+              </ul>
             </li>
 
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Gerenciar Pátio</span>
             </li>
-            <li>
-              <a href="create-entrance-parking.html">
-                <i class="la la-box"></i>
-                <span>Criar Entrada</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-door-closed"></i>
+                <span>Entrada no Pátio</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-entrance-parking.html">Registrar Entrada</a>
+                </li>
+                <li>
+                  <a href="read-entrance-parking.html">Listar Entrada</a>
+                </li>
+                <li>
+                  <a href="search-entrance-parking.html">Buscar Entrada</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="read-entrance-parking.html">
-                <i class="la la-box"></i>
-                <span>Listar Entrada</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-door-open"></i>
+                <span>Saída do Pátio</span>
+                <span class="menu-arrow"></span>
               </a>
-            </li>
-            <li>
-              <a href="create-exit-parking.html">
-                <i class="la la-box"></i>
-                <span>Criar Saida</span>
-              </a>
-            </li>
-            <li>
-              <a href="read-exit-parking.html">
-                <i class="la la-box"></i>
-                <span>Listar Saida</span>
-              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-exit-parking.html">Registrar Saída</a>
+                </li>
+                <li>
+                  <a href="read-exit-parking.html">Listar Saída</a>
+                </li>
+                <li>
+                  <a href="search-exit-parking.html">Buscar Saída</a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="search-permanence-parking.html">
-                <i class="la la-box"></i>
+                <i class="la la-search"></i>
                 <span>Buscar Permanência</span>
               </a>
             </li>
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Gerenciar Serviços</span>
             </li>
-            <li>
-              <a href="create-service.html">
-                <i class="la la-box"></i>
-                <span>Criar Serviço</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-toolbox"></i>
+                <span>Gestão Básica</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-service.html">Cadastro Serviço</a>
+                </li>
+                <li>
+                  <a href="read-service.html">Tabela Serviços</a>
+                </li>
+                <li>
+                  <a href="show-catalog-service.html">Catalogo Serviço</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="read-service.html">
-                <i class="la la-box"></i>
-                <span>Listar Serviços</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-gears"></i>
+                <span>Gestão Intermediária</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-order-service.html">Cadastro OS</a>
+                </li>
+                <li>
+                  <a href="read-order-service.html">Tabela OS</a>
+                </li>
+                <li>
+                  <a href="export-order-service.html">Exportar OS</a>
+                </li>
+                <li>
+                  <a href="create-discount-service.html">Cadastro Desconto</a>
+                </li>
+                <li>
+                  <a href="read-discount-service.html">Tabela Descontos</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="create-tariff-service.html">
-                <i class="la la-box"></i>
-                <span>Criar Tarifa</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-hammer"></i>
+                <span>Gestão Avançada</span>
+                <span class="menu-arrow"></span>
               </a>
-            </li>
-            <li>
-              <a href="read-tariff-service.html">
-                <i class="la la-box"></i>
-                <span>Listar Tarifas</span>
-              </a>
-            </li>
-            <li>
-              <a href="view-tax.html">
-                <i class="la la-box"></i>
-                <span>Impostos e Taxas</span>
-              </a>
-            </li>
-            <li>
-              <a href="export-catalog-service.html">
-                <i class="la la-box"></i>
-                <span>Exportar Catalogo</span>
-              </a>
-            </li>
-            <li>
-              <a href="create-order-service.html">
-                <i class="la la-box"></i>
-                <span>Criar Ordem de Serviço</span>
-              </a>
-            </li>
-            <li>
-              <a href="read-order-service.html">
-                <i class="la la-box"></i>
-                <span>Listar Ordem de Serviço</span>
-              </a>
-            </li>
-            <li>
-              <a href="export-order-service.html">
-                <i class="la la-box"></i>
-                <span>Exportar Ordem de Serviço</span>
-              </a>
-            </li>
-            <li>
-              <a href="create-discount-service.html">
-                <i class="la la-box"></i>
-                <span>Criar Desconto</span>
-              </a>
-            </li>
-            <li>
-              <a href="read-discount-service.html">
-                <i class="la la-box"></i>
-                <span>Listar Descontos</span>
-              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-tariff-service.html">Cadastro Tarifa</a>
+                </li>
+                <li>
+                  <a href="read-tariff-service.html">Tabela Tarifas</a>
+                </li>
+                <li>
+                  <a href="create-tax-service.html">Cadastro Taxa</a>
+                </li>
+                <li>
+                  <a href="read-tax-service.html">Tabela Taxas</a>
+                </li>
+                <li>
+                  <a href="export-service.html">Exportar Tabela Serviços</a>
+                </li>
+                <li>
+                  <a href="export-tax-service.html">Exportar Tabela Taxas</a>
+                </li>
+              </ul>
             </li>
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Acesso Aeronaves</span>
@@ -448,56 +526,95 @@
             </li>
             <li>
               <a href="create-aircraft.html">
-                <i class="la la-box"></i>
-                <span>Criar Aeronave</span>
+                <i class="la la-plane"></i>
+                <span>Cadastro Aeronave</span>
               </a>
             </li>
             <li>
               <a href="read-aircraft.html">
-                <i class="la la-box"></i>
-                <span>Listar Aeronaves</span>
+                <i class="la la-plane"></i>
+                <span>Tabela Aeronaves</span>
               </a>
             </li>
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Operações de Serviços</span>
             </li>
-            <li>
-              <a href="create-operation-service.html">
-                <i class="la la-box"></i>
-                <span>Criar Operação</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-user-edit"></i>
+                <span>Operações Básica</span>
+                <span class="menu-arrow"></span>
               </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-operation-service.html">Cadastro Operação</a>
+                </li>
+                <li>
+                  <a href="read-operation-service.html">Tabela Operações</a>
+                </li>
+                <li>
+                  <a href="search-operation-service.html">Buscar Operações</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="read-operation-service.html">
-                <i class="la la-box"></i>
-                <span>Listar Operações</span>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-hammer"></i>
+                <span>Operações Avançada</span>
+                <span class="menu-arrow"></span>
               </a>
-            </li>
-            <li>
-              <a href="search-operation-service.html">
-                <i class="la la-box"></i>
-                <span>Localizar Operação</span>
-              </a>
-            </li>
-            <li>
-              <a href="request-operation-service.html">
-                <i class="la la-box"></i>
-                <span>Solicitações de Operação</span>
-              </a>
-            </li>
-            <li>
-              <a href="search-consume-service.html">
-                <i class="la la-box"></i>
-                <span>Buscar Consumo de Serviços</span>
-              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="request-operation-service.html">Solicitação Operações</a>
+                </li>
+                <li>
+                  <a href="export-request-operation-service.html">Exportar Solicitações</a>
+                </li>
+                <li>
+                  <a href="read-consume-service.html">Tabela Consumo Serviços</a>
+                </li>
+                <li>
+                  <a href="export-consume-service.html">Exportar Consumo Serviços</a>
+                </li>
+                <li>
+                  <a href="search-operation-service.html">Buscar Operações</a>
+                </li>
+                <li>
+                  <a href="search-consume-service.html">Buscar Consumo Serviços</a>
+                </li>
+              </ul>
             </li>
             <li class="menu-title" title="Título do Menu">
               <span title="Acesso as Informações de Serviços">Relatórios</span>
             </li>
             <li>
               <a href="historic-report.html">
-                <i class="la la-book"></i>
+                <i class="la la-clock"></i>
                 <span>Histórico de Relatórios</span>
+              </a>
+            </li>
+            <li>
+              <a href="report-employee.html">
+                <i class="la la-passport"></i>
+                <span>Relatório Funcionário</span>
+              </a>
+            </li>
+            <li>
+              <a href="report-consume-service.html">
+                <i class="la la-signal"></i>
+                <span>Relatório Consumo</span>
+              </a>
+            </li>
+            <li>
+              <a href="report-order-service.html">
+                <i class="la la-id-card"></i>
+                <span>Relatório OS</span>
+              </a>
+            </li>
+            <li>
+              <a href="report-movement.html">
+                <i class="la la-scroll"></i>
+                <span>Relatório Movimentação</span>
               </a>
             </li>
             <li class="menu-title" title="Título do Menu">
@@ -506,30 +623,36 @@
             <li>
               <a href="#">
                 <i class="la la-book"></i>
-                <span>Documentação Online</span>
-              </a>
-            </li>
-            <li>
-              <a href="create-called-ti.html">
-                <i class="la la-box"></i>
-                <span>Abrir Chamado TI</span>
-              </a>
-            </li>
-            <li>
-              <a href="read-called-ti.html">
-                <i class="la la-box"></i>
-                <span>Chamados TI</span>
-              </a>
-            </li>
-            <li>
-              <a href="search-called-ti-protocol.html">
-                <i class="la la-box"></i>
-                <span>Chamados TI Protocolo</span>
+                <span>Documentação</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="la la-box"></i>
+                <i class="la la-bug"></i>
+                <span>Reportar Problema</span>
+              </a>
+            </li>
+            <li class="submenu">
+              <a href="#">
+                <i class="la la-user-edit"></i>
+                <span>Chamado TI</span>
+                <span class="menu-arrow"></span>
+              </a>
+              <ul style="display: none;">
+                <li>
+                  <a href="create-called-ti.html">Cadastro Chamado</a>
+                </li>
+                <li>
+                  <a href="read-called-ti.html">Tabela Chamados</a>
+                </li>
+                <li>
+                  <a href="search-called-ti-protocol.html">Buscar Protocolo</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <i class="la la-question"></i>
                 <span>Ajuda Online</span>
               </a>
             </li>
