@@ -2,4 +2,4 @@
 
 - [X] Página de login do usuário.
 - [X] Página de Tabela de Aeroportos.
-- [ ] Página para Cadastrar Aeroporto.
+- [X] Página para Cadastrar Aeroporto.
