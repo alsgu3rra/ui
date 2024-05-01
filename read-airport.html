@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+  <head lang="pt-br">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Plataforma de Gerenciamento de Aeroportos"
+      content="Principal Plataforma de Gerenciamento de Aeroportos"
     />
     <meta
       name="keywords"
       content="administração, aeroportos, onix, anac, aviação, avião, gestão, rh, operações"
     />
-    <meta name="author" content="Alan Guerra - Asa Inovações@2024" />
+    <meta name="author" content="Alan Guerra - Onix Aeroporto@2024" />
     <meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <link
@@ -96,7 +96,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Onix</title>
   </head>
-
   <body>
     <div class="main-wrapper">
       <div class="header" title="Barra Superior do Site">
@@ -143,41 +142,54 @@
           >
             <ul>
               <li class="menu-title" title="Título do Menu">
-                <span title="Acesso Básico as Informações"
+                <span title="Título de Categoria de Itens"
                   >Conteúdo Básico</span
                 >
               </li>
-              <li class="submenu">
+              <li class="submenu" title="Submenu de itens">
                 <a href="#">
                   <i class="la la-key"></i>
-                  <span>Autenticação</span>
+                  <span title="Submenu de Autenticação de usuários"
+                    >Autenticação</span
+                  >
                   <span class="menu-arrow"></span>
                 </a>
                 <ul style="display: none">
                   <li>
-                    <a href="./login.html">Sair</a>
+                    <a href="./login.html" title="Botão para sair da conta"
+                      >Sair</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="menu-title" title="Título do Menu">
-                <span title="Acesso as Informações de Aeroportos"
+                <span title="Título de Categoria de Itens"
                   >Gerenciar Aeroportos</span
                 >
               </li>
               <li>
-                <a href="./create-airport.html">
+                <a
+                  href="./create-airport.html"
+                  title="Botão ir para a página de cadastro de aeroporto"
+                >
                   <i class="la la-plane-departure"></i>
                   <span>Cadastro Aeroporto</span>
                 </a>
               </li>
               <li>
-                <a href="./read-airport.html">
+                <a
+                  href="./read-airport.html"
+                  title="Botão ir para a página de tabela de aeroportos"
+                >
                   <i class="la la-monument"></i>
                   <span>Tabela Aeroportos</span>
                 </a>
               </li>
               <li>
-                <a href="./read-inative-airports.html">
+                <a
+                  href="./read-inative-airports.html"
+                  title="Botão ir para a página de tabela de aeroportos inativo"
+                >
                   <i class="la la-map-marked"></i>
                   <span>Aeroportos Inativo</span>
                 </a>
