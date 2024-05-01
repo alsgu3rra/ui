@@ -1,5 +1,7 @@
 # Protótipo Interativo do Sistema Onix: Uma Jornada Visual pela Experiência do Usuário
 
+![Captura de Tela](./screenshot.png)
+
 ## Objetivo
 
 Este protótipo interativo tem como objetivo apresentar as interfaces (telas) do sistema Onix, proporcionando uma simulação visual da experiência do usuário (UI/UX). Ele não possui funcionalidades nem conexão com banco de dados, servindo como uma ferramenta para:
