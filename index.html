@@ -1,163 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Plataforma de Gerenciamento de Aeroportos" />
-  <meta name="keywords" content="administração, aeroportos, onix, anac, aviação, avião, gestão, rh, operações" />
-  <meta name="author" content="Alan Guerra - Asa Inovações@2024" />
-  <meta name="robots" content="index, follow" />
-  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-  <link rel="apple-touch-icon" sizes="57x57" href="./assets/icon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="./assets/icon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="./assets/icon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/icon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="./assets/icon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="./assets/icon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="./assets/icon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="./assets/icon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="./assets/icon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="./assets/icon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png" />
-  <link rel="manifest" href="./manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="./assets/icon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>Onix</title>
-</head>
-<body>
-  <div class="main-wrapper">
-    <div class="header" title="Barra Superior do Site">
-      <div class="header-left" title="Parte Lateral Esquerdo da Barra Superior">
-        <a href="./index.html" class="logo">
-          <img src="./assets/img/logo.png" width="40" height="40" alt="Logo" title="Logo do Site" />
+  <head lang="pt-br">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Principal Plataforma de Gerenciamento de Aeroportos"
+    />
+    <meta
+      name="keywords"
+      content="administração, aeroportos, onix, anac, aviação, avião, gestão, rh, operações"
+    />
+    <meta name="author" content="Alan Guerra - Onix Aeroporto@2024" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Onix</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="header" title="Barra Superior do Site">
+        <div
+          class="header-left"
+          title="Parte Lateral Esquerdo da Barra Superior"
+        >
+          <a href="./index.html" class="logo">
+            <img
+              src="./assets/img/logo.png"
+              width="40"
+              height="40"
+              alt="Logo"
+              title="Logo do Site"
+            />
+          </a>
+        </div>
+        <a
+          id="toggle_btn"
+          href="javascript:void(0);"
+          title="Botão para fechar ou abrir menu lateral"
+        >
+          <span class="bar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </a>
+        <a
+          id="mobile_btn"
+          class="mobile_btn"
+          href="#sidebar"
+          title="Botão para fechar ou abrir menu lateral"
+        >
+          <i class="fa fa-bars"></i>
         </a>
       </div>
-      <a id="toggle_btn" href="javascript:void(0);" title="Botão para fechar ou abrir menu lateral">
-        <span class="bar-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </a>
-      <a id="mobile_btn" class="mobile_btn" href="#sidebar" title="Botão para fechar ou abrir menu lateral">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <div class="sidebar" id="sidebar" title="Barra de Menu Lateral Esquerdo">
-      <div class="sidebar-inner slimscroll">
-        <div id="sidebar-menu" class="sidebar-menu" title="Contéudo da Barra Lateral Esquerdo">
-          <ul>
-            <li class="menu-title" title="Título do Menu">
-              <span title="Acesso Básico as Informações">Conteúdo Básico</span>
-            </li>
-            <li class="submenu">
-              <a href="#">
-                <i class="la la-key"></i>
-                <span>Autenticação</span>
-                <span class="menu-arrow"></span>
-              </a>
-              <ul style="display: none;">
-                <li>
-                  <a href="./login.html">Sair</a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-title" title="Título do Menu">
-              <span title="Acesso as Informações de Aeroportos">Gerenciar Aeroportos</span>
-            </li>
-            <li>
-              <a href="./create-airport.html">
-                <i class="la la-plane-departure"></i>
-                <span>Cadastro Aeroporto</span>
-              </a>
-            </li>
-            <li>
-              <a href="./read-airport.html">
-                <i class="la la-monument"></i>
-                <span>Tabela Aeroportos</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="page-wrapper" title="Conteúdo principal da Página">
-      <div class="content container-fluid">
-        <div class="page-header" title="Parte Superior com informações da Página">
-          <div class="row">
-            <div class="col-sm-12">
-              <h3 class="page-title">Acesso ao Conteúdo da Página</h3>
-              <ul class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a href="./index.html">Início</a>
-                </li>
-                <li class="breadcrumb-item active">Tabela de Aeroportos</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row" title="Sessão de Conteúdo">
-          <div class="col-md-12">
-            <div class="table-responsive">
-              <table class="table table-striped custom-table mb-0">
-                <thead>
-                  <tr>
-                    <th>Nome Aeroporto</th>
-                    <th>Estado/UF</th>
-                    <th>CNPJ</th>
-                    <th>Data Criação</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Global Aeroporto Internacional</td>
-                    <td>GO</td>
-                    <td>09.025.965/0001-03</td>
-                    <td>12/03/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Global Aeroporto Internacional</td>
-                    <td>GO</td>
-                    <td>09.025.965/0001-03</td>
-                    <td>12/03/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Global Aeroporto Internacional</td>
-                    <td>GO</td>
-                    <td>09.025.965/0001-03</td>
-                    <td>12/03/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Global Aeroporto Internacional</td>
-                    <td>GO</td>
-                    <td>09.025.965/0001-03</td>
-                    <td>12/03/2024</td>
-                  </tr>
-                  <tr>
-                    <td>Global Aeroporto Internacional</td>
-                    <td>GO</td>
-                    <td>09.025.965/0001-03</td>
-                    <td>12/03/2024</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+      <div class="sidebar" id="sidebar" title="Barra de Menu Lateral Esquerdo">
+        <div class="sidebar-inner slimscroll">
+          <div
+            id="sidebar-menu"
+            class="sidebar-menu"
+            title="Contéudo da Barra Lateral Esquerdo"
+          >
+            <ul>
+              <li class="menu-title" title="Título do Menu">
+                <span title="Título de Categoria de Itens"
+                  >Conteúdo Básico</span
+                >
+              </li>
+              <li class="submenu" title="Submenu de itens">
+                <a href="#">
+                  <i class="la la-key"></i>
+                  <span title="Submenu de Autenticação de usuários"
+                    >Autenticação</span
+                  >
+                  <span class="menu-arrow"></span>
+                </a>
+                <ul style="display: none">
+                  <li>
+                    <a href="./login.html" title="Botão para sair da conta"
+                      >Sair</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-title" title="Título do Menu">
+                <span title="Título de Categoria de Itens"
+                  >Gerenciar Aeroportos</span
+                >
+              </li>
+              <li>
+                <a
+                  href="./create-airport.html"
+                  title="Botão ir para a página de cadastro de aeroporto"
+                >
+                  <i class="la la-plane-departure"></i>
+                  <span>Cadastro Aeroporto</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./read-airport.html"
+                  title="Botão ir para a página de tabela de aeroportos"
+                >
+                  <i class="la la-monument"></i>
+                  <span>Tabela Aeroportos</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./read-inative-airports.html"
+                  title="Botão ir para a página de tabela de aeroportos inativo"
+                >
+                  <i class="la la-map-marked"></i>
+                  <span>Aeroportos Inativo</span>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+      <div class="page-wrapper" title="Conteúdo principal da Página">
+        <div class="content container-fluid">
+          <div
+            class="page-header"
+            title="Parte Superior com informações da Página"
+          >
+            <div class="row">
+              <div class="col-sm-12">
+                <h3 class="page-title">Acesso ao Conteúdo da Página</h3>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="./index.html">Início</a>
+                  </li>
+                  <li class="breadcrumb-item active">Tabela de Aeroportos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row" title="Sessão de Conteúdo">
+            <div class="col-md-12">
+              <div class="table-responsive">
+                <table class="table table-striped custom-table mb-0">
+                  <thead>
+                    <tr>
+                      <th>Nome Aeroporto</th>
+                      <th>Estado/UF</th>
+                      <th>CNPJ</th>
+                      <th>Data Criação</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Global Aeroporto Internacional</td>
+                      <td>GO</td>
+                      <td>09.025.965/0001-03</td>
+                      <td>12/03/2024</td>
+                    </tr>
+                    <tr>
+                      <td>Global Aeroporto Internacional</td>
+                      <td>GO</td>
+                      <td>09.025.965/0001-03</td>
+                      <td>12/03/2024</td>
+                    </tr>
+                    <tr>
+                      <td>Global Aeroporto Internacional</td>
+                      <td>GO</td>
+                      <td>09.025.965/0001-03</td>
+                      <td>12/03/2024</td>
+                    </tr>
+                    <tr>
+                      <td>Global Aeroporto Internacional</td>
+                      <td>GO</td>
+                      <td>09.025.965/0001-03</td>
+                      <td>12/03/2024</td>
+                    </tr>
+                    <tr>
+                      <td>Global Aeroporto Internacional</td>
+                      <td>GO</td>
+                      <td>09.025.965/0001-03</td>
+                      <td>12/03/2024</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <script src="./assets/js/jquery-3.5.1.min.js"></script>
-  <script src="./assets/js/popper.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
-  <script src="./assets/js/jquery.slimscroll.min.js"></script>
-  <script src="./assets/js/app.js"></script>
-</body>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.slimscroll.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>

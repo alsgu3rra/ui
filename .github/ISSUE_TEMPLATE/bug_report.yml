@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a bug to help us improve Istio
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reservar um tempo para preencher este relatório de bug!
+  - type: checkboxes
+    id: security-check
+    attributes:
+      label: Este é o lugar certo para enviar isso?
+      description: |-
+        Este é um espaço para reportar apenas bugs relacionados a UI/UX, como botões, janelas, páginas, textos entre outros.
+        Não estaremos recebendo bugs relacionados a infraestrutura e regras de negócio.
+      options:
+        - label: "Esta não é uma vulnerabilidade de segurança ou um bug de travamento"
+          required: true
+        - label: "Esta não é uma questão sobre como usar o Onix"
+          required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Descrição do Bug
+      description: Conte-nos quais problemas você encontrou.
+      placeholder: Inclua informações sobre o que você tentou, o que esperava que acontecesse e o que realmente aconteceu. Quanto mais detalhes melhor!
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Versão
+      description: Inclua a versão atual onde você encontrou o bug.
+      placeholder: |
+        inclua apenas a versão da UI.
+      render: Text
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Informações Adicionais
+      description: |
+        Aqui você deve incluir informações adicionais ou até mesmo uma solução.
+  - type: checkboxes
+    id: area
+    attributes:
+      label: Área de produto afetada
+      options:
+      - label: "Página Html"
+      - label: "Estilização do Css"
+      - label: "Formulário"
+      - label: "Acessibilidade"
+      - label: "Experiência de Usuário"
+      - label: "Arquivo Interno"
+      - label: "JavaScript Interno"
+      - label: "Bootstrap"
+      - label: "Arquivos Estáticos"
