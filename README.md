@@ -29,6 +29,18 @@ O protótipo permitirá que os usuários:
 - Observem como as informações são apresentadas e como as ações são executadas.
 - Forneçam feedbacks sobre a usabilidade, clareza e estética das interfaces.
 
+## Recursos
+
+- Aeroportos.
+  - Cadastro de Aeroporto.
+  - Tabela de Aeroporto.
+- Serviços do Aeroporto.
+  - Cadastro Serviço.
+  - Tabela Serviço.
+- Operações de Campo.
+  - Cadastro Operação.
+  - Tabela Operação.
+
 ## Benefícios:
 
 A criação deste protótipo interativo trará diversos benefícios, como:
