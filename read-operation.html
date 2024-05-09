@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head lang="pt-br">
   <meta charset="UTF-8" />
   <meta name="description" content="Principal Plataforma de Gerenciamento de Aeroportos" />
@@ -31,6 +32,7 @@
   <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body lang="pt-br">
   <div class="main-wrapper">
     <header class="header">
@@ -130,37 +132,36 @@
                 <li class="breadcrumb-item">
                   <a href="./index.html">Início</a>
                 </li>
-                <li class="breadcrumb-item active">Formulário de Cadastro de Aeroporto</li>
+                <li class="breadcrumb-item active">Tabela de Operações de Campo</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12">
-              <div class="card mb-0">
-                <div class="card-body">
-                  <form>
-                    <div class="form-group">
-                      <label>Nome do Aeroporto / Razão Social</label>
-                      <input type="text" class="form-control" />
-                    </div>
-                    <div class="form-group">
-                      <label>Estado / UF</label>
-                      <input type="text" class="form-control" />
-                    </div>
-                    <div class="form-group">
-                      <label>CNPJ</label>
-                      <input type="text" class="form-control" />
-                    </div>
-                    <div class="submit-section">
-                      <button class="btn btn-primary submit-btn">
-                        Enviar Cadastro
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
+          <div class="col-md-12">
+            <div class="table-responsive">
+              <table class="table table-striped custom-table mb-0">
+                <thead>
+                  <tr>
+                    <th>Nome Serviço</th>
+                    <th>Prefixo Aeronave</th>
+                    <th>Consumo</th>
+                    <th>Fatura</th>
+                    <th>Data Criação</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Abastecimento</td>
+                    <td>PPUHJ</td>
+                    <td>1</td>
+                    <th>R$ 200,00</th>
+                    <td>12/03/2024</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </div>
         </div>
       </div>
     </main>
@@ -173,4 +174,5 @@
     <script src="./assets/js/app.js"></script>
   </footer>
 </body>
+
 </html>
