@@ -1,3 +1,15 @@
+# v1.1.0
+
+- Adicionado Página para cadastro de serviço.
+- Adicionado Página para cadastro de operações.
+- Adicionado Página de tabela de serviços.
+- Adicionado Página de tabela de operações.
+- Removido Página de tabela de aeroportos inativos.
+- Novos Atributos para o arquivo de Manifest.
+- Melhorado a Estrutura do html.
+- Adicionado arquivo estatico de mapeamento do bootstrap (css e javascript).
+- Removido atributos desnecessário em tags (alt e title).
+
 # v1.0.1
 
 - Melhorias no Readme.
